@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+    
+    <section>
+        <form class="forma">
+            <fieldset style="max-width:300">
+                <legend>обратная связь</legend>
+                 <label>Ваше имя:<input type="text" required></label><br>
+                 <label>Ваша фамилия:<input type="text" required></label><br>
+                 <label>Город:<input type="text" required></label><br>
+                 <label>Коментарий: <br><textarea></textarea></label><br>
+            </fieldset>
+        </form>
+    </section>
+    
+     <textarea class="textarea"
+
+  rows="3" cols="30"
+
+  minlength="10" maxlength="150" placeholder="Введите комментарий"></textarea>
+    <style>
+        .forma {
+            border: 3px solid red;
+            max-width: 400px;
+            border-radius: 10px;
+        }
+    </style>
+    
+    
+    <div class="anima">     <!--Анимация-->
+        web-разработка
+    </div>
+    
+    <style>
+.anima {
+    animation: anima_1 2s infinite linear;
+}
+
+@keyframes anima_1 {
+    0% {
+        text-shadow: 0px 0px 0px black;
+    }
+    50% {
+        text-shadow: 1px 3px 30px black;
+    }
+    100% {
+        text-shadow: 0px 0px 0px black;
+    }
+    
+}
+</style>
+
+</html>

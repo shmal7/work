@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+
+        <div class="form-row"><!-- поле для ввода имени -->
+            <label class="form-group">
+            <span class="form-hint">Введите ваше имя</span>
+            <input type="text" class="field" placeholder="Например, Лиза" required>
+            </label>
+        </div>
+
+        <div class="from-row"><!-- поле для ввода email -->
+            <label class="form-group">
+            <span class="form-hint">Введите ваш email</span>
+            <input type="text" class="field" placeholder="Например, lz_obzhorka@mail.com" required>
+        </label>
+        </div>
+
+        <div class="form-row"><!-- кнопка -->
+            <button class="button">отправить</button>
+        </div>
+
+        <div class="form-row"><!-- город проживания -->
+            <span class="form-hint">Выберите город проживания</span>
+            <select class="select">
+            <option>Санкт-Петербург</option>
+            <option>Москва</option>
+            <option>Казань</option>
+        </select>
+        <style>
+            .select {
+                display: block;
+                box-sizing: border-box;
+                width: 480px;
+                height: 45px;
+                padding-left: 20px;
+                margin: 0;
+                border: 1px solid #cbd1d4;
+                font-family: inherit;
+                font-size: 14px;
+                color: #333333;
+            }
+    
+        </style>
+        </div>
+
+    </div>
+
+
+    <style>
+        .form-row:last-child {
+            text-align: center;
+        }
+
+        .button:hover {
+            background-color: #c53b2d;
+        }
+    
+        .field:focus, .button:focus {
+            outline: 2px solid #c53b2d;
+            outline-offset: 5px;
+        }
+    
+        .field:focus {
+            outline: 2px solid #c53b2d;
+            outline-offset: 5px;
+        }
+    
+        .button {
+            border: none;
+            padding:15px 55px;
+            color:#ffffff;
+            background-color: #ff5947;
+            font-family: inherit;
+            font-size: 16px;
+            cursor: pointer; 
+        }
+    
+        .form-group {
+            display: block;
+        }
+    
+        .form-hint {
+            display: block;
+            font-size: 13px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+    
+        .field {
+            box-sizing: border-box;
+            width: 640px;
+            border: 1px solid #222222;
+            padding: 15px 20px;
+            font-family: inherit;
+        }
+    
+        .box {
+            outline: 15px solid #800080;
+            outline-offset: 15px;
+        }
+    
+        .box {
+            width: 700px;
+            min-width: 1000px;
+        }
+    
+        .box {
+            height: 700px;
+            min-height: 1000px;
+        }
+    
+        .box {
+            width: 800px;
+            min-width: 800px;
+        }
+    
+        .box {
+            height: 800px;
+            min-height: 800px;
+        }
+    
+        .box {
+            width: 700px;
+            min-width: 500px;
+        }
+    
+        .box {
+            height: 700px;
+            min-height: 500px;
+        }
+    
+        .box {
+            width: 700px;
+            max-width: 1000px;
+        }
+    
+        .box {
+            height: 700px;
+            max-height: 1000px;
+        }
+    
+        .box {
+            height: 700px;
+            max-height: 1000px;
+        }
+    
+        .box {
+            height: 800px;
+            max-height: 800px;
+        }
+    
+        .box {
+            width: 700px;
+            max-width: 500px;
+        }
+    
+        .box {
+            height: 700px;
+            max-height: 500px;
+        }
+    
+        .textarea {
+            min-width: 640px;
+            max-width: 640px;
+            min-height: 150px;
+            max-height: 200px;
+        }
+    
+        </style>
+    
+</body>
+</html>
